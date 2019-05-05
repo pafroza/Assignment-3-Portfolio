@@ -1,0 +1,126 @@
+*{
+
+margin: 0;
+
+padding: 0;
+
+box-sizing: border-box;
+}
+img{
+	max-width: 100%
+	display:block;
+}
+
+body{}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+
+/*===============
+   Portfolio
+=================*/
+.service{
+
+width: 33.33%;
+
+float: left;
+
+padding: 20px;
+
+/* background: aquamarine; */
+
+/* border-radius: 15px; */
+}
+.service-content{
+
+background: #a5700dab;
+
+color: #fff;
+
+padding: 30px 20px;
+
+box-shadow: 5px 5px 15px #634205ab;
+
+border-radius: 15px;
+}
+.service-content p{
+
+font-size: 20px;
+}
+.service-content h2{
+
+color: maroon;
+
+text-align: center;
+
+padding: 0px 0px 10px 0px;
+
+font-size: 30px;
+
+font-style: italic;
+
+text-transform: uppercase;
+}
+
+
+.Portfolio-Section{
+    background: #c29f5ce3;
+    text-align: center;
+    padding: 50px 0px;
+    margin-top: 50px;
+}
+.Portfolio-Section h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: maroon;
+    font-style: italic;
+}
+.portfolio-gallery{
+    width: 33.33%;
+    float: left;
+    padding: 25px;
+}
+.portfolio-gallery img{
+    max-width: 100%;
+    display: block;
+    border-top-right-radius: 40px;
+    box-shadow: 5px 5px 15px #634205ab;
+}
+
+
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+nav{
+    width: 80%;
+    float: left;
+    text-align: right;
+}
+nav ul{}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    color: maroon;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: block;
+    transition: all 0.5s ease-in-out; /*supported by all browser*/
+    -webkit-transition: all 0.5s ease-in-out; /*supported by Chrome browser*/
+    -moz-transition: all 0.5s ease-in-out; /*supported by Mozila browser*/
+}
+
+nav ul li a:hover{
+	background-color: maroon;
+	color: #fff;
+}
